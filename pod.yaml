@@ -23,9 +23,9 @@ spec:
   template:
     metadata:
       labels:
-        app: hello 
+        app: hello
     spec:
       containers:
         - name: hello
-          image: iammithran/newimage:latest
+          image: deena865/newimage3:latest
           imagePullPolicy: Always
